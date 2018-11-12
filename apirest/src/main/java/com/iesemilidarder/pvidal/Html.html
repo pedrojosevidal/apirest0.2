@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <title> tienda de BTS</title>
+    <link rel="stylesheet" type="text/css" href="CSS/CSS.css" />
+
+
+</head>
+<body>
+<form method="post" action="RecuperacionDeDato">
+    <!-- fieldset sirve para envoler en un recuadro nuestro formulario -->
+    <fieldset>
+        <legend>formulario </legend>
+        <label>Nombre para el producto</label>
+        <input type="text" size="15"/>
+        <label> preu minim </label>
+        <input type="number" step="5" min="0" max="50">
+        <label> preu maxim </label>
+        <input type="number" step="5" min="10" max="100">
+        <label> producto</label>
+        <select name="stok">
+            <option value="1">non stok</option>
+            <option value="2">stok</option>
+        </select>
+
+
+        <button type "button"><a href="producto.html">enviar formulario</a></button>
+
+    </fieldset>
+</form>
+</body>
+</html>
